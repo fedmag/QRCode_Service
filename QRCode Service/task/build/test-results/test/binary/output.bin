@@ -1,0 +1,72 @@
+[1;31m
+Start test 1[0m
+	[0;34m
+4[0m[0;34m  .   ____          _            __ _ _
+5[0m[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+6[0m[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+7[0m[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+6[0m[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+5[0m[0;34m =========|_|==============|___/=/_/_/_/
+7[0m[0;34m :: Spring Boot ::                (v3.0.2)
+[0m[0;34m
+‚[0m[0;34m2024-06-21T15:08:59.068+02:00  INFO 4324 --- [    Test worker] qrcodeapi.Application                    : Starting Application using Java 17.0.11 with PID 4324 (started by maggi in C:\Users\maggi\Desktop\fedmag\QRCode Service\QRCode Service\task)
+¹[0m[0;34m2024-06-21T15:08:59.074+02:00  INFO 4324 --- [    Test worker] qrcodeapi.Application                    : No active profile set, falling back to 1 default profile: "default"
+¢[0m[0;34m2024-06-21T15:09:00.528+02:00  INFO 4324 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+[0m[0;34m2024-06-21T15:09:00.540+02:00  INFO 4324 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+¥[0m[0;34m2024-06-21T15:09:00.540+02:00  INFO 4324 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+¨[0m[0;34m2024-06-21T15:09:00.616+02:00  INFO 4324 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+µ[0m[0;34m2024-06-21T15:09:00.618+02:00  INFO 4324 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1482 ms
+ª[0m[0;34m2024-06-21T15:09:01.500+02:00  INFO 4324 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+±[0m[0;34m2024-06-21T15:09:01.596+02:00  INFO 4324 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+¶[0m[0;34m2024-06-21T15:09:01.611+02:00  INFO 4324 --- [    Test worker] qrcodeapi.Application                    : Started Application in 2.967 seconds (process running for 4.093)
+«[0;34m2024-06-21T15:09:01.913+02:00  INFO 4324 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ž[0m[0;34m2024-06-21T15:09:01.913+02:00  INFO 4324 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+–[0m[0;34m2024-06-21T15:09:01.914+02:00  INFO 4324 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+[0m[1;31m
+Start test 2[0m
+m[0;34mqrCode endpoint called. Provided params -> contents: mailto:name@company.com, size: null, type: null
+[1;31m
+Start test 3[0m
+l[0;34mqrCode endpoint called. Provided params -> contents: mailto:name@company.com, size: 200, type: null
+[1;31m
+Start test 4[0m
+m[0;34mqrCode endpoint called. Provided params -> contents: mailto:name@company.com, size: null, type: null
+[1;31m
+Start test 5[0m
+f[0;34mqrCode endpoint called. Provided params -> contents: geo:-27.07,109.21, size: null, type: gif
+[1;31m
+Start test 6[0m
+c[0;34mqrCode endpoint called. Provided params -> contents: tel:1234567890, size: 200, type: null
+[1;31m
+Start test 7[0m
+n[0;34mqrCode endpoint called. Provided params -> contents: smsto:1234567890:texting!, size: 200, type: jpeg
+[1;31m
+Start test 8[0m
+f[0;34mqrCode endpoint called. Provided params -> contents: Here is some text, size: null, type: gif
+[1;31m
+Start test 9[0m
+k[0;34mqrCode endpoint called. Provided params -> contents: https://hyperskill.org, size: 200, type: jpeg
+[1;31m
+Start test 10[0m
+_[0;34mqrCode endpoint called. Provided params -> contents: text content, size: 99, type: gif
+[1;31m
+Start test 11[0m
+d[0m[0;34mqrCode endpoint called. Provided params -> contents: text content, size: 351, type: png
+[1;31m
+Start test 12[0m
+e[0m[0;34mqrCode endpoint called. Provided params -> contents: text content, size: 451, type: webp
+[1;31m
+Start test 13[0m
+e[0m[0;34mqrCode endpoint called. Provided params -> contents: text content, size: 200, type: webp
+[1;31m
+Start test 14[0m
+Y[0m[0;34mqrCode endpoint called. Provided params -> contents: , size: 200, type: webp
+[1;31m
+Start test 15[0m
+\[0m[0;34mqrCode endpoint called. Provided params -> contents:    , size: 500, type: webp
+[1;31m
+Start test 16[0m
+e[0m[0;34mqrCode endpoint called. Provided params -> contents: text content, size: 500, type: webp
+[1;31m
+Start test 17[0m
+e[0m[0;34mqrCode endpoint called. Provided params -> contents: text content, size: 200, type: webp
